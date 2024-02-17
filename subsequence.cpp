@@ -3,7 +3,7 @@ using namespace std;
 
 void subsequence(int i,string s,string&f){
     if(i==s.length()){
-        cout<<f<<" ";
+        cout<<f<<" "<<endl;
         return ;
     }
 
@@ -16,6 +16,6 @@ void subsequence(int i,string s,string&f){
 int main(){
     string s="abc";
     string f="";
-    cout<<"All Subsequence of";
+    cout<<"All Subsequence of: "<<endl;
     subsequence(0,s,f);
 }
